@@ -1,0 +1,76 @@
+$baseColor: #26CF9E;
+$accentBlue: #15355a;
+$accentRed: #ff385c;
+
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+nz-header {
+  background: #fff;
+  padding: 0;
+  height: 50px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+
+  .header-login {
+    display: flex;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+
+      li {
+        display: flex;
+        list-style: none;
+        padding: 0 10px;
+        height: 100%;
+        align-items: center;
+
+        i {
+          font-size: 20px;
+          color: $accentBlue;
+        }
+
+        .user {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 30px;
+            height: 30px;
+            margin-right: 5px;
+          }
+        }
+
+
+      }
+
+      li:hover {
+        background-color: rgb(225, 228, 222);
+        cursor: pointer;
+      }
+
+    }
+
+    ul:last-child {
+      margin-right: 10px;
+    }
+  }
+}

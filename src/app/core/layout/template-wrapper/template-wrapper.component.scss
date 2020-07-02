@@ -1,0 +1,97 @@
+ $baseColor: #26CF9E;
+ $accentBlue: #15355a;
+ $accentRed: #ff385c;
+
+
+ //  .trigger {
+ //    font-size: 18px;
+ //    line-height: 64px;
+ //    padding: 0 24px;
+ //    cursor: pointer;
+ //    transition: color 0.3s;
+ //  }
+
+ //  .trigger:hover {
+ //    color: #1890ff;
+ //  }
+
+
+ //  nz-header {
+ //    background: #fff;
+ //    padding: 0;
+ //  }
+
+
+
+ // nz-footer {
+ //   text-align: center;
+ // }
+
+ //  .header-container {
+ //    display: flex;
+ //    flex-direction: row;
+ //    justify-content: space-between;
+
+ //    .header-login {
+ //      display: flex;
+
+ //      margin-right: 20px;
+
+ //      ul {
+ //        display: flex;
+ //        flex-direction: row;
+
+ //        li {
+ //          list-style: none;
+ //          padding-right: 10px;
+
+ //          i {
+ //            font-size: 20px;
+ //            color: $accentBlue;
+ //          }
+
+ //          img {
+ //            width: 30px;
+ //            height: 30px;
+ //          }
+ //        }
+ //      }
+ //    }
+ //  }
+
+ .logo {
+   height: 32px;
+   background: rgba(255, 255, 255, 0.2);
+   margin: 16px;
+
+   img {
+     height: 100%;
+     width: 100%;
+   }
+ }
+
+
+
+ .menu-unfold {
+   width: 300px;
+   min-width: 300px;
+   max-width: 300px;
+ }
+
+ nz-sider {
+   width: 100%;
+ }
+
+ nz-content {
+   margin: 0 16px;
+ }
+
+ nz-breadcrumb {
+   margin: 16px 0;
+ }
+
+ .inner-content {
+   padding: 24px;
+   background: #fff;
+   min-height: 410px;
+ }

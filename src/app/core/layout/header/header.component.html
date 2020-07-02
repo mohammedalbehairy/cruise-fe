@@ -1,0 +1,46 @@
+<nz-header>
+
+
+  <div class="header-container">
+    <i class="trigger" nz-icon [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'" (click)="flip()"></i>
+
+    <div class="header-login">
+      <ul>
+        <li>
+          <i nz-icon nzType="notification" nzTheme="outline"></i>
+        </li>
+        <li>
+          <i nz-icon nzType="bell" nzTheme="outline"></i>
+        </li>
+
+        <!-- User Menu -->
+        <li nz-dropdown [nzDropdownMenu]="userMenu">
+          <div class="user">
+            <img src="assets/default-user.png" alt="">
+            <span>User Name</span>
+          </div>
+        </li>
+        <nz-dropdown-menu #userMenu="nzDropdownMenu">
+          <ul nz-menu>
+            <li nz-menu-item>1st menu item</li>
+            <li nz-menu-item>2nd menu item</li>
+            <li nz-menu-item>3rd menu item</li>
+          </ul>
+        </nz-dropdown-menu>
+
+        <!-- Settings Menu -->
+        <li nz-dropdown [nzDropdownMenu]="settingsMenu">
+          <i nz-icon nzType="setting" nzTheme="outline"></i>
+        </li>
+        <nz-dropdown-menu #settingsMenu="nzDropdownMenu">
+          <ul nz-menu>
+            <li nz-menu-item>Settings menu item 1</li>
+            <li nz-menu-item>Settings menu item 2</li>
+            <li nz-menu-item>Settings menu item 3</li>
+          </ul>
+        </nz-dropdown-menu>
+
+      </ul>
+    </div>
+  </div>
+</nz-header>
